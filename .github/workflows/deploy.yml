@@ -14,8 +14,8 @@ jobs:
 
       - name: Decompress GZip file
         run: |
-          gzip -d juegoDadosWeb/pck/exportgodot44101.wasm.gz
-          gzip -d juegoDadosWeb/wasm/exportgodot44101.pck.gz
+          gzip -d juegoDadosWeb/godot/exportgodot44101.wasm.gz
+          gzip -d juegoDadosWeb/godot/exportgodot44101.pck.gz
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
